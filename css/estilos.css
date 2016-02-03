@@ -1,0 +1,71 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+p {
+
+}
+h1,h2,h3 {
+    font-family: 'Aladin', cursive;
+}
+h1 {
+    text-align: center;
+    background-color: #255089;
+    background-image: url(../imagenes/girasolesMiniatura.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    margin-left: -143px;
+    text-shadow: 4px 4px 5px #000000;
+    font-size: 2.2em;
+    font-weight: normal;
+}
+body {
+    background-image: url(../imagenes/fondo.png);
+    margin-left: 150px;
+    background-repeat: repeat-y;
+    background-attachment:scroll;
+    background-color: #ACCDFB;
+}
+h2 {
+    color: #ffffff;
+    text-shadow: 4px 4px 5px #000000;
+    font-size: 2em;
+    border-bottom: 3px solid #ffffff;
+    font-weight: normal;
+}
+h3 {
+    color: #ffffff;
+    text-shadow: 4px 4px 5px #000000;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+figure {
+    display: block;
+    border:1px solid white;
+    padding: 5px;
+    margin-left: 0px;
+}
+figcaption{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1em;
+}
+p {
+    font-weight: bold;
+}
+ul {
+    background-color: #142141;
+    border:2px solid white;
+    color: #ffffff;
+    font-weight: normal;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+li {
+    border:2px solid #000000;
+    list-style-image: url(../imagenes/pincel.png);
+}
