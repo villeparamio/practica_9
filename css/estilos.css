@@ -44,7 +44,7 @@ figure {
     display: block;
     border:1px solid white;
     padding: 5px;
-    margin-left: 0px;
+    margin-left: 1px;
 }
 figcaption{
     background-color: #000000;
@@ -68,4 +68,24 @@ a {
 li {
     border:2px solid #000000;
     list-style-image: url(../imagenes/pincel.png);
+    color:white;
+    margin:20px;
+    padding:5px;
+}
+li:hover{
+    background-color: #5470a9;
+}
+a{
+    color:white;
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:hover + strong{
+    display:none;
 }
